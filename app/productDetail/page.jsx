@@ -18,7 +18,7 @@ export default function Page({ params }) {
         <ContactHeader />
         <TopBar />
       </div>
-      <div className="pt-46">
+      <div className="pt-46" >
         <ProductDetail />
         <Footer />
       </div>
