@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import React from "react";
 
 export default function Page({ params }) {
-  // const productId = params?.id
+  // const productId = params?.id 
   const { id } = React.use(params);
 
   console.log("Product ID from query:", id);
